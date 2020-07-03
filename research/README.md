@@ -107,7 +107,7 @@
    - 256 即表示dataset中每个hash需要生成256个动态节点关联生成一个hash
    - 512 即表示每个hash需要生成512个动态节点关联生成一个hash
    - 导致每个hash生成时间拉长
-![avatar](dag.jpg)
+![image](dag.jpg)
     
  - 2 PROGPOW_PERIOD: 50 -> 10
     - 此参数是progpow 最后hash里 随机函数需要用到的 种子 调整周期
