@@ -151,6 +151,10 @@ $ TODO 此为动态编译需要测试环境 拥有以上软件环境 需要研�
 $ ./progpowminer -U -M 100
 $ ./ethminer -U -M 100
 ```
+- 参数说明 
+    - `U` cuda 
+    - `G` opencl
+    - `M` 测试使用多少高度，此高度决定使用DAG大小，即使用显存大小,每3w块为1 epoch 初始在1G左右
 - 测试结果 对比结果
 
 | 指标	| progpow	| ethash	|
