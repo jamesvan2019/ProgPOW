@@ -129,13 +129,15 @@
   - 5 3 - 4 参数的微调主要想要匹配硬件的计算利用率(sm) 与GPU内存利用率 达到最高
     - 个人认为此项不一定通用所有gpu设备，可能当时调试的设备达到最佳，不一定所有设备能达到最佳
 
-# 使用progpow 编译版 与ethminer 比对
+# 使用progpow 编译版 与ethhash 本地比对
 
 ### 测试环境 
 - 系统：Windows 10 
 - cuda：10.1
 - VC++ Runtime 2019 
 - 显卡：1060 1070 1070ti
+- ethminer git clone https://github.com/ethereum-mining/ethminer
+- progpowminer git clone git@github.com:jamesvan2019/ProgPOW.git
 - 编译命令
 ```bash
 $ cd repo
