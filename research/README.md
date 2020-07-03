@@ -136,6 +136,16 @@
 - cuda：10.1
 - VC++ Runtime 2019 
 - 显卡：1060 1070 1070ti
+- 编译命令
+```bash
+$ cd repo
+$ mkdir build && cd build
+$ # 编译需要安装visual stadio 2017 或者 2019
+$ cmake .. -G "Visual Stadio 15 2017 Win64"
+$ cmake .. -G "Visual Stadio 16 2019"
+$ cmake --build . --config Release 
+$ TODO 此为动态编译需要测试环境 拥有以上软件环境 需要研究静态编译
+```
 - 测试命令
 ```bash
 $ ./progpowminer -U -M 100
@@ -145,9 +155,9 @@ $ ./ethminer -U -M 100
 
 | 指标	| progpow	| ethash	|
 | ---| --- | --- | 
-|hashrate| 35.7 (mHash/s) | 73.79 (mHash/s) | 
-|功率| 180w/180w | 131w/180w | 
-|显存占用| 1259M/8192M | 1259M/8192M | 
-|GPU利用率| 100% | 100% | 
-|风扇转速| 40% | 20% | 
-|温度| 68C | 60C | 
+|三卡算力总和| 35.7 (mHash/s) | 73.79 (mHash/s) | 
+|功率(1070ti)| 180w/180w | 131w/180w | 
+|显存占用(1070ti)| 1259M/8192M | 1259M/8192M | 
+|GPU利用率(1070ti)| 100% | 100% | 
+|风扇转速(1070ti)| 40% | 20% | 
+|温度(1070ti)| 68C | 60C | 
