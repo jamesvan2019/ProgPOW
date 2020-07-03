@@ -142,9 +142,10 @@ $ ./progpowminer -U -M 100
 $ ./ethminer -U -M 100
 ```
 - 测试结果 对比结果
-| 指标	| progpowminer	| ethminer	|
+
+| 指标	| progpow	| ethash	|
 | ---| --- | --- | 
-|hashrate| 35.7 (mHash/s) | 131w/180w | 
+|hashrate| 35.7 (mHash/s) | 73.79 (mHash/s) | 
 |功率| 180w/180w | 131w/180w | 
 |显存占用| 1259M/8192M | 1259M/8192M | 
 |GPU利用率| 100% | 100% | 
